@@ -330,12 +330,56 @@ nav .menu ul li{
     background-size: cover;
     background-position: center;
 }
+
  .footer-container .footer-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
     color: white;
+    padding: 60px 120px 60px 120px;
+    border: none;
 }
+
+.footer-social-link h3{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.footer-social-link ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer-social-link li{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-link li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-link li img{
+    width: 14px;
+    height: 14px;
+}
+
+.footer-container hr{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0;
+}
+
 .footer-container .footer-bottom{
     color: #fafafa;    
     text-align: center;
+    padding: 24px;
+    border: none;
+    font-size: 14px;
 }
