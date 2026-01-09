@@ -3,8 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#container{
+     max-width: 1360px;
+     margin: 0 auto;
+}
 h1{
-    font-size: 90px;
+    font-size: 72px;
+    font-weight: bold;
 }
 
 header{
@@ -19,12 +33,12 @@ nav{
     margin: 0 auto;
 }
 nav .logo{
-width: 139px;
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 120px;
+    width: 139px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 120px;
 
-}
+    }
 
 nav .menu ul{
     text-decoration: none;
@@ -95,6 +109,9 @@ nav .menu ul li{
 .hero-paragraph  {
     padding-bottom: 16px;
 }
+.hero-paragraph p{
+    line-height: 24px;
+}
 .hero-btn{
     
     display: inline-flex;
@@ -120,17 +137,25 @@ nav .menu ul li{
     
 }
 .notes{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: block;
     text-align: center;
+   
+    align-items: center;
+    margin: 0 auto;
 }
-.notes h2{
-    padding-top: 20px;
+
+.notes .notes-title{
+    padding-top: 80px;
+    
+}
+.notes .notes-title h2{
+    
     font-size: 48px;
     font-weight: bold;
-    gap: 30px;
+    margin-bottom: 16px;
 }
-.notes p{
+.notes .notes-title p{
     font-size: 16px;
     color: #627382;
     gap: 44px;
@@ -140,4 +165,51 @@ nav .menu ul li{
 .notes-container{
     display: flex;
     justify-content: space-between;
+    padding: 44px 120px 48px 120px;
+    gap: 24px;
+}
+
+.notes-card {
+    /* border: 1px solid red; */
+    color: #ffffff;
+    width: 322px;
+    flex: 1;
+}
+.notes-card .card-4{
+    max-width: 274px;
+}
+.notes-container .notes-card h4{
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding:0px 24px 0px 24px;
+    
+}
+.notes-container .notes-card p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+    padding:0px 24px 0px 24px;
+    margin-bottom: 69.5px;
+}
+/* .notes-container .notes-card img{
+    margin-bottom: 16px;
+} */
+ .notes-image{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid #F95555;
+    border-radius: 30px;
+    margin-top: 69.5px;
+    display: flex;
+    justify-content: center;
+
+ }
+.notes-image img{
+    width: 32px;
+    height: 32px;
 }
