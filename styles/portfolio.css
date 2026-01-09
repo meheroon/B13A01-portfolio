@@ -180,6 +180,7 @@ nav .menu ul li{
     font-size: 16px;
     color: #627382;
     gap: 44px;
+    line-height: 20px;
 
 }
 
@@ -193,8 +194,8 @@ nav .menu ul li{
 .notes-card {
     /* border: 1px solid red; */
     background: #ffffff;
-    width: 322px;
-    flex: 1;
+    max-width: 322px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .notes-card .card-4{
     max-width: 274px;
@@ -213,6 +214,7 @@ nav .menu ul li{
     color: #627382;
     padding:0px 24px 0px 24px;
     margin-bottom: 69.5px;
+    line-height: 20px;
 }
 /* .notes-container .notes-card img{
     margin-bottom: 16px;
@@ -243,8 +245,17 @@ nav .menu ul li{
 .brain-container .brain-content{
     /* border: 1px solid red; */
     margin: 120px 0px 120px 60px;
-    max-width: 700px;
+    width: 700px;
+    height: 396px;
     
+}
+.brain-content .brain-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.brain-content .brain-list img {
+    padding: 0px 5px 5px 0px;
 }
 .brain-container .brain-content h6{
     font-size: 16px;
