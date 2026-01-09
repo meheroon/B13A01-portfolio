@@ -15,6 +15,8 @@ body{
 #container{
      max-width: 1360px;
      margin: 0 auto;
+     /* border: 1px solid red; */
+     padding: 0;
 }
 h1{
     font-size: 72px;
@@ -137,7 +139,7 @@ nav .menu ul li{
     
 }
 .notes{
-    /* border: 1px solid red; */
+     /* border: 1px solid red; */
     display: block;
     text-align: center;
    
@@ -212,4 +214,90 @@ nav .menu ul li{
 .notes-image img{
     width: 32px;
     height: 32px;
+}
+.brain-container{
+    padding: 120px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.brain-container .brain-content{
+    /* border: 1px solid red; */
+    margin: 120px 0px 120px 60px;
+    max-width: 700px;
+    
+}
+.brain-container .brain-content h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-container .brain-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-container .brain-content p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain-container .brain-content li{
+    font-weight: 400;
+    color: #001931;
+}
+
+.think {
+     display: block;
+    text-align: center;
+   
+    align-items: center;
+    margin: 0 auto;
+}
+
+.think .think-upper{
+    margin: 80px 40px 24px 40px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.think .think-upper h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.think .think-upper p{
+    font-size: 16px;
+    color: #627382;
+}
+.think .think-lower{
+    /* border: 1px solid red; */
+    margin: 0px 40px 80px 40px;
+    text-align: center;
+
+}
+
+.think .think-lower p{
+    font-size: 16px;
+    color: #627382;
+}
+
+ .footer-container{
+   
+    height: 348px;
+    /* border: 1px solid red; */ 
+    margin: 0 auto;
+    background: #001931;
+    background-size: cover;
+    background-position: center;
+}
+ .footer-container .footer-content{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.footer-container .footer-bottom{
+    color: #fafafa;    
+    text-align: center;
 }
