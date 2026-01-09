@@ -253,9 +253,11 @@ nav .menu ul li{
     list-style: none;
     display: flex;
     align-items: center;
+    color: #001931;
+   
 }
 .brain-content .brain-list img {
-    padding: 0px 5px 5px 0px;
+    padding: 0px 5px 0px 0px;
 }
 .brain-container .brain-content h6{
     font-size: 16px;
@@ -286,24 +288,29 @@ nav .menu ul li{
     align-items: center;
     margin: 0 auto;
 }
-
+/* #container .think-container{
+    background: #f7f2f6;
+} */
 .think .think-upper{
-    margin: 80px 40px 24px 40px;
+    padding: 80px 40px 24px 40px;
     /* border: 1px solid red; */
     text-align: center;
+    
 }
 .think .think-upper h2{
     font-size: 40px;
     font-weight: bold;
     color: #001931;
+    margin-bottom: 16px;
 }
 .think .think-upper p{
     font-size: 16px;
     color: #627382;
+    line-height: 24px;
 }
 .think .think-lower{
     /* border: 1px solid red; */
-    margin: 0px 40px 80px 40px;
+    padding: 0px 40px 80px 40px;
     text-align: center;
 
 }
@@ -311,6 +318,7 @@ nav .menu ul li{
 .think .think-lower p{
     font-size: 16px;
     color: #627382;
+    margin-top: 16px;
 }
 
  .footer-container{
