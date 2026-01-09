@@ -119,3 +119,25 @@ nav .menu ul li{
     border: none;
     
 }
+.notes{
+    border: 1px solid red;
+    display: block;
+    text-align: center;
+}
+.notes h2{
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    gap: 30px;
+}
+.notes p{
+    font-size: 16px;
+    color: #627382;
+    gap: 44px;
+
+}
+
+.notes-container{
+    display: flex;
+    justify-content: space-between;
+}
