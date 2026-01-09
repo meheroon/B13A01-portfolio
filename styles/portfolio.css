@@ -72,8 +72,11 @@ nav .menu ul li{
   transition: 180ms ease;
   user-select: none;
   background-color: #30B868;
-  margin-right: 120px;
+ 
   color: white;
+}
+ .nav-btn{
+     margin-right: 120px;
 }
 .hero{
     background: url(../images/assets/hero-bg.png),#ffffff;
@@ -88,6 +91,14 @@ nav .menu ul li{
     text-align: center;
     color: white;
     max-height: 380px;
+}
+.hero-paragraph  {
+    padding-bottom: 16px;
+}
+.hero-btn{
+    
+    display: inline-flex;
+    gap: 16px;
 }
 .early-access{
     color: green;
